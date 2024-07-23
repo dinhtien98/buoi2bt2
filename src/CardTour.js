@@ -1,6 +1,5 @@
 import React from "react";
 import { Card, CardImg, CardBody, CardTitle, CardText } from "reactstrap";
-import './cardtour.css'
 
 const CardTour = (props) => {
   return (
@@ -16,7 +15,7 @@ const CardTour = (props) => {
           <p className="text-gray font-light">
           <i className="fa-solid fa-map-pin"></i> {props.cate}
           </p>
-          <CardTitle className="text-third mb-3 title">{props.title}</CardTitle>
+          <CardTitle className="text-third mb-3">{props.title}</CardTitle>
           <CardText>
             From
             <span className="font-bold text-primary mx-2">${props.price}</span>
